@@ -1,1 +1,26 @@
+Question no:1
+arr = [1, 2, 3, 4, 5]
+target = 7
+pairs = find_pairs (arr, target)
+print(pairs) 
+
+Question no:2
+arr = [1, 2, 3, 4, 5]
+reverse_array(arr)
+print(arr)
+
+Question no.4
+def first_non_repeated_char(s):
+    char_counts = {}
+    for char in s:
+        if char in char_counts:
+            char_counts[char] += 1
+        else:
+            char_counts[char] = 1
+    
+    for char in s:
+        if char_counts[char] == 1:
+            return char
+    
+    return None
 
