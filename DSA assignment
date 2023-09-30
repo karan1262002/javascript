@@ -1,10 +1,10 @@
-Question no:1
+Question no:1 
 arr = [1, 2, 3, 4, 5]
 target = 7
 pairs = find_pairs (arr, target)
 print(pairs) 
 
-Question no:2
+Question
 arr = [1, 2, 3, 4, 5]
 reverse_array(arr)
 print(arr)
